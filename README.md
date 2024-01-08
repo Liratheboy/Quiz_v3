@@ -1,5 +1,5 @@
 Quiz sobre programação!
 
-Nesta terceira versão, pretendo adicionar tela inicial e final.
+Nesta terceira versão, pretendo adicionar tela inicial e final, sendo necessário usar Javascript.
 
-Além das telas inicias, 
+Além disso, deixar o site totalmente responsivo também é um dos objetivos.
