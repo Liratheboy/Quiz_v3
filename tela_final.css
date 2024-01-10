@@ -10,3 +10,23 @@
     display: none;
 }
 
+.container_tela_final{
+    text-align: center;
+}
+
+.container_botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    cursor: pointer;
+}
