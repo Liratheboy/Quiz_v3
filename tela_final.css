@@ -20,6 +20,10 @@
     justify-content: center;
 }
 
+.container_botao_telafinal {
+    margin-inline: 7px;
+}
+
 .botao{
     display: flex;
     align-items: center;
@@ -29,4 +33,10 @@
     background-color: aliceblue;
     border: 2px solid black;
     cursor: pointer;
+}
+
+.container_contatos_final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

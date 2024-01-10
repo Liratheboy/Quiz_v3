@@ -11,17 +11,20 @@
   <body>
 
     <div class="tela_inicial">
+
       <div class="container_tela_inicial">
         <div class="box_texto">
           <h1>Seja Bem Vindo!</h1>
           <h2>O quiz a seguir apresenta questões sobre funções, matrizes, seleções e outras um pouco mais téoricas</h2>
           <h2>Fique a vontade para jogar quantas vezes quiser!</h2>
         </div>
+
         <div class="container_botao">
           <div class="botao_inicio" id="botao_inicio">
             <p class="texto_botaoinicio">Iniciar jogo</p>
           </div>
         </div>
+
         <div class="contatos_telainicial">
           <a href="https://www.instagram.com/liratheboy/?next=%2F" class="link_socials" target="_blank">
             <ion-icon class="icon icon_instagram" name="logo-instagram" ></ion-icon>
@@ -33,7 +36,9 @@
             <ion-icon class="icon icon_github" name="logo-github"></ion-icon>
           </a>
         </div>
+
       </div>
+
     </div>
 
     <div class="main_game">
@@ -242,22 +247,40 @@
 
     <div class="tela_final">
       <div class="container_tela_final">
-        <h1>Fim de jogo!</h1>
-        <h2>Pontuação Total: <div class="pontuacao" id="pontuacao"> </div></h2>
-        <h3>Deseja ir para a tela inicial ou jogar novamente?</h3>
+        <div class="container_texto">
+          <h1>Fim de jogo!</h1>
+          <h2>Pontuação Total: <div class="pontuacao" id="pontuacao"> </div></h2>
+          <h3>Deseja ir para a tela inicial ou jogar novamente?</h3>
+        </div>
+
         <div class="container_botoes">
-          <div class="container_botao_recomecar">
+          <div class="container_botao_telafinal container_botao_recomecar">
             <div class="botao botao_recomecar" id="botao_recomecar">
               <p>Recomeçar!</p>
             </div>
           </div>
-          <div class="container_botao_tela_inicial">
+
+          <div class="container_botao_telafinal  container_botao_tela_inicial">
             <div class="botao botao_tela_inicial" id="botao_tela_inicial">
               <p>Tela Inicial</p>
             </div>
           </div>
         </div>
+
+        <div class="container_contatos_final">
+          <a href="https://www.instagram.com/liratheboy/?next=%2F" class="link_socials" target="_blank">
+            <ion-icon class="icon icon_instagram" name="logo-instagram" ></ion-icon>
+          </a>
+          <a href="https://www.linkedin.com/in/joão-paulo-lira-73494b20b/" class="link_socials" target="_blank">
+            <ion-icon class="icon icon_linkedin" name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="https://github.com/Liratheboy" class="link_socials" target="_blank">
+            <ion-icon class="icon icon_github" name="logo-github"></ion-icon>
+          </a>
+        </div>
+
       </div>
+
     </div>
 
     <script src="jogo.js"></script>
