@@ -1,3 +1,4 @@
+/*Retirando display's*/
 .main_game{
     display: none;
 }
@@ -14,6 +15,7 @@
     text-align: center;
 }
 
+/*Texto tela inicial*/
 .box_texto{
     
 }
