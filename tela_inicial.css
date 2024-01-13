@@ -41,3 +41,12 @@
     border: 2px solid black;
     cursor: pointer;
 }
+
+.link_socials_inicial{
+    text-decoration: none;
+    margin-inline: 10px;
+}
+
+.icon_inicial{
+    font-size: 2rem;
+}

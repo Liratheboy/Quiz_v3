@@ -35,11 +35,11 @@ header{
 
 .link_socials{
   text-decoration: none;
+  margin-inline: 10px;
 }
 
 .icon{
   font-size: 2rem;
-  padding: 0 10px 0 10px;
 }
 
 .icon_instagram{

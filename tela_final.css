@@ -40,3 +40,12 @@
     align-items: center;
     justify-content: center;
 }
+
+.link_socials_final{
+    text-decoration: none;
+    margin-inline: 10px;
+  }
+
+.icon_final{
+    font-size: 2rem;
+}
