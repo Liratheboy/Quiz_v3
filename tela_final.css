@@ -40,6 +40,7 @@
 }
 
 .container_contatos_final{
+    margin-block-start: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +52,7 @@
   }
 
 .icon_final{
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 /*Estilização individual*/
@@ -60,7 +61,12 @@
     display: inline;
 }
 
-.h1_fimdejogo{
+.container_texto_final :nth-child(3){
+    margin-block-start: 30px; 
+    margin-block-end: 5px;   
+}
+
+.container_texto_final h1:nth-child(1){
     font-size: 55px;
     margin-block-end: 40px;
 }
