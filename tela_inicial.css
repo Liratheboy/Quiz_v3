@@ -12,8 +12,13 @@
 }
 
 .tela_inicial{
-    
-}
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
 
 .container_tela_inicial{
     text-align: center;
