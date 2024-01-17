@@ -12,7 +12,7 @@
 }
 
 .tela_inicial{
-    line-height: 1.7;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,12 +22,7 @@
 
 .container_tela_inicial{
     text-align: center;
-    margin-block-start: 150px;
-}
-
-/*Texto tela inicial*/
-.container_tela_inicial{
-
+    margin-block-start: 240px;
 }
 
 .texto_botaoinicio{
@@ -52,11 +47,15 @@
     cursor: pointer;
 }
 
+.contatos_telainicial{
+    margin-block-start: 30px;
+}
+
 .link_socials_inicial{
     text-decoration: none;
     margin-inline: 10px;
 }
 
 .icon_inicial{
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
