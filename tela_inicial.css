@@ -11,13 +11,18 @@
     display: none;
 }
 
+.tela_inicial{
+    
+}
+
 .container_tela_inicial{
     text-align: center;
+    margin-block-start: 150px;
 }
 
 /*Texto tela inicial*/
-.box_texto{
-    
+.container_tela_inicial{
+
 }
 
 .texto_botaoinicio{
