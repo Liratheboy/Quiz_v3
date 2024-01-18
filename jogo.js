@@ -74,3 +74,7 @@ function mudarPergunta10(){
 
   
 }
+
+function iniciarJogo(){
+  alert('funcionou');
+}

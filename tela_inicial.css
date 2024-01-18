@@ -3,6 +3,10 @@
     display: none;
 }
 
+.container_questao{
+    display: none;
+}
+
 .imgs_footer{
     display: none;
 }
@@ -59,3 +63,15 @@
 .icon_inicial{
     font-size: 2.2rem;
 }
+
+.icon_instagram{
+    color: #cd486b;
+  }
+  
+  .icon_linkedin{
+    color:#0077b5;
+  }
+  
+  .icon_github{
+    color: #171515;
+  }
