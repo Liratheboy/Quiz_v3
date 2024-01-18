@@ -76,5 +76,14 @@ function mudarPergunta10(){
 }
 
 function iniciarJogo(){
-  alert('funcionou');
+  var remover = document.querySelector('.link_telainicial');
+  remover.remove();
+
+  var el = document.createElement("link");
+
+  el.classList = "link_iniciar";
+  el.setAttribute("href", "jogo.css");
+  el.setAttribute("rel", "stylesheet");
+  var head = document.querySelector("head");
+  head.appendChild(el);
 }

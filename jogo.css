@@ -1,4 +1,16 @@
 /* Resetando configs*/
+.tela_inicial{
+  display: none;
+}
+
+.tela_final{
+  display: none;
+}
+
+.container_questao{
+  display: block;
+}
+
 .main_game{
   line-height: 1.5;
   margin: 0;
