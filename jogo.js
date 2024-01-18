@@ -105,21 +105,9 @@ function iniciarJogo(){
 /*----------------------------------------------------------*/
 
 function telaInicial(){
-  var remover = document.querySelector('.link_telaFinal');
-  remover.remove();
 
-  var el = document.createElement("link");
+  location.reload();
 
-  el.classList = "link_telainicial";
-  el.setAttribute("href", "tela_inicial.css");
-  el.setAttribute("rel", "stylesheet");
-  var head = document.querySelector("head");
-  head.appendChild(el);
 }
 
 /*----------------------------------------------------------*/
-
-function jogarNovamente(){
-
-}
-
