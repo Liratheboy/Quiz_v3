@@ -71,8 +71,36 @@ function mudarPergunta9(){
 }
 
 function mudarPergunta10(){  
+  pergunta10.style.display = "none";
 
+  var remover = document.querySelector('link_iniciar');
+  remover.remove();
+
+  var el = document.createElement("link");
+
+  el.classList = "link_telaFinal";
+  el.setAttribute("href", "tela_final.css");
+  el.setAttribute("rel", "stylesheet");
+  var head = document.querySelector("head");
+  head.appendChild(el);
   
+}
+
+function telaInicial(){
+  var remover = document.querySelector('link_iniciar');
+  remover.remove();
+
+  var el = document.createElement("link");
+
+  el.classList = "link_Telainicial";
+  el.setAttribute("href", "tela_inicial.css");
+  el.setAttribute("rel", "stylesheet");
+  var head = document.querySelector("head");
+  head.appendChild(el);
+}
+
+function jogarNovamente(){
+
 }
 
 function iniciarJogo(){
